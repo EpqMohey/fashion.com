@@ -1,0 +1,89 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+body {
+    border-left:  10cap solid;
+    border-right: 10cap solid orange;
+    border-left-color: orange;
+    font-size: x-large;
+    font-family: "Dancing Script", serif;
+}
+
+header {
+     
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    
+}
+
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+ul {
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    flex-direction: row;
+    
+    gap: 20px;
+}
+
+
+
+
+li a {
+    text-decoration: none;
+    color: navy;
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+    
+}
+
+#dress {
+    position:relative;
+    left: 50px;
+    top:50px;
+    
+}
+
+#pillow {
+    position: relative;
+    bottom: 90px;
+    left:470px
+}
+
+button{
+    position: relative;
+    bottom:450px;
+    left: 700px;
+    background-color: navy;
+    
+    color: white;
+    padding: 25px;
+    
+}
+
+button {
+    background: rgb(244, 162, 75);
+    color: white;
+    padding: 15px 30px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    clip-path: polygon(10% 0%, 100% 0%, 90% 100%, 0% 100%);
+  }
+  
+  
+

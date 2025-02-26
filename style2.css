@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+body{
+    background-color: whitesmoke;
+    font-family: "Dancing Script", serif;
+
+}
+.div {
+    position:relative;
+    left:450px;
+    top:10px;
+    background: orange;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: -7px 12px 15px ;
+    width: 350px;
+    text-align: center;
+    border-color: black;
+
+}
+
+
+input {
+    border: navy;
+    border-radius: 15px;
+    
+}
+
+a {
+    font-size: larger;
+    color: white;
+    
+}
+
+button {
+   background-color: black;
+   border-radius: 10px; 
+   color: white;
+   padding:6px;
+   position:relative;
+   top:10px
+}
+
+
